@@ -3,3 +3,9 @@ header {
   display: flex;
   justify-content: center;
 }
+
+hr {
+  color: white;
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+}
