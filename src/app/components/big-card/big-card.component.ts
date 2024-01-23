@@ -1,10 +1,10 @@
-import { RouterModule } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterLink],
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.css'
 })

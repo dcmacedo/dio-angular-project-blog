@@ -9,10 +9,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './small-card.component.css'
 })
 export class SmallCardComponent {
-  @Input()
-  photoCover: string = ""
-  @Input()
-  cardTitle: string = ""
-  @Input()
-  Id: string = "0"
+  @Input() photoCover: string = ""
+  @Input() cardTitle: string = ""
+  @Input() Id: string = "0"
 }
